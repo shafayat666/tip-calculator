@@ -53,8 +53,8 @@ How many people to split the bill? 4
 Each person should pay: $99.63
 ```
 ## Error Handling
-- Doesn't handle division by zero with an error message.
-- Invalid input types (like entering text instead of numbers) are not managed with appropriate error prompts.
+- Handles division by zero with an error message.
+- Invalid input types (like entering text instead of numbers) are managed with appropriate error prompts.
 
 ## Contributing
 Contributions are welcome! If you have any ideas for improving this calculator, feel free to fork the repository, make your changes and submit a pull request.
@@ -62,5 +62,5 @@ Contributions are welcome! If you have any ideas for improving this calculator, 
 1. Fork the repo
 2. Create a new branch (``` git checkout -b feature-branch ```)
 3. Commit your changes (``` git commit -m "Add new feature" ```)
-4. Pusj to the branch (``` git push origin feature-branch ```)
+4. Push to the branch (``` git push origin feature-branch ```)
 5. Open an Pull Request
